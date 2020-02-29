@@ -1,0 +1,60 @@
+body {background-color: #5DBCD2;
+  color: grey;
+}
+p{color: black;
+}
+
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: auto;
+  height: 50px;
+  background-color: grey;
+}
+
+li, a {
+  color: #5DBCD2;
+list-style: none;
+}
+
+ img{
+   border: 4px solid Black;
+ }
+
+ #Photos
+ {
+   margin-right: 60px;
+ }
+
+ #Sculptures{
+   margin-right: 20px;
+ }
+
+ .oeuvres{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color:black;
+ }
+ .lartiste{
+   color: black;
+ }
+
+ .window
+ {
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   background-color: grey;
+   bottom: 0;
+   position: fixed;
+   width: 1348px;
+   margin: 0;
+ }
+
+ button{
+
+   cursor:pointer;
+ }
